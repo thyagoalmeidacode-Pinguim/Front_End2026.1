@@ -1,0 +1,57 @@
+ /* Seletor por elemento (aplica a toda a página) */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;                   /* remove margens padrão do navegador */
+      background: #f5f5f5;         /* cor de fundo da página */
+      color: #222;                 /* cor do texto */
+      line-height: 1.5;
+    }
+
+    /*Seletor por elementos (aplica a toda a página) */
+    header {
+      background-color: #4f46e5; /* cor de fundo do cabeçalho */
+      color: white;              /* cor do texto do cabeçalho */
+      padding: 24px 16px;
+      text-align: center;        /* centraliza o texto do cabeçalho */
+    }
+
+     nav {
+      display: flex;
+      gap: 12px;                /* espaço entre itens */
+      justify-content: center;
+      margin-top: 12px;
+    }
+    
+    nav a {
+      text-decoration: none;    /* remove sublinhado */
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      background: white;
+      color: #111827;
+    }
+
+    nav a:hover {
+      background: #f3f4f6;
+    }
+
+    /* Seletor por classse (aplica a todos os elementos com a classe "nav-link") */
+    .container{
+      max-width: 900px;            /* largura máxima do conteúdo */
+      margin: 24px auto;           /* centraliza horizontalmente */
+      padding: 0 16px;      
+    }
+
+    .card{
+        background-color: white;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.06);
+        margin-bottom: 16px;
+    }
+
+     .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+    }
