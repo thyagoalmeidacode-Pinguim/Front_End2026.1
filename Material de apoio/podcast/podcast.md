@@ -14,9 +14,15 @@ Disponibilizamos abaixo um episódio de podcast especialmente selecionado para a
 - Experiências reais de quem já começou do zero  
 - Conselhos para evitar erros comuns  
 
+## ▶️ Acesse o podcast: Wireframe - Conceitos 
+
+👉 [Clique aqui para ouvir o episódio](https://notebooklm.google.com/notebook/06e5161b-6e9c-45c1-b478-8eec40a3ee6c/artifact/03ad7cff-09b8-47d2-ab22-ef735b5cb42b)
+
+
 ## ▶️ Acesse o podcast: HTML - O esqueleto da WEB
 
 👉 [Clique aqui para ouvir o episódio](https://notebooklm.google.com/notebook/47974eb5-a672-45d9-a87c-ef03a407eaeb/artifact/3a2e0447-861c-4e29-8ada-b0e88d4d3a29)
+
 
 ## 💡 Dica
 
