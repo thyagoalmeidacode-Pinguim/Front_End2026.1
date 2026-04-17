@@ -69,6 +69,4 @@ Crie uma caixa com:
 
 Crie um botão que:
 - Mude de cor quando o mouse passar por cima (`:hover`)
-
-
 ---
