@@ -48,6 +48,9 @@ Crie um botão (`<button>`) com:
 ## 5. Espaçamento (margin e padding)
 
 Crie uma caixa (`<div>`) e adicione:
+- Lagura de 300px
+- Altura de 300px
+- Cor de fundo
 - Espaçamento interno (`padding`)
 - Espaçamento externo (`margin`)
 
@@ -67,11 +70,5 @@ Crie uma caixa com:
 Crie um botão que:
 - Mude de cor quando o mouse passar por cima (`:hover`)
 
----
-
-## Desafio Extra
-
-- Combine vários conceitos em uma única página
-- Estilize tudo para ficar visualmente agradável
 
 ---
