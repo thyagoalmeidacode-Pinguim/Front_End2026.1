@@ -1,4 +1,4 @@
-# 🧪 Exercícios de CSS – Nível Iniciante
+# 🧪 Exercícios de CSS 
 
 > ⚠️ Instruções:
 > - Utilize **CSS externo**
@@ -45,7 +45,7 @@ Crie um botão (`<button>`) com:
 
 ---
 
-## 5. 📦 Espaçamento (margin e padding)
+## 5. Espaçamento (margin e padding)
 
 Crie uma caixa (`<div>`) e adicione:
 - Espaçamento interno (`padding`)
@@ -53,7 +53,7 @@ Crie uma caixa (`<div>`) e adicione:
 
 ---
 
-## 6. 🧱 Bordas
+## 6. Bordas
 
 Crie uma caixa com:
 - Borda sólida
@@ -62,14 +62,14 @@ Crie uma caixa com:
 
 ---
 
-## 7. 🖱️ Hover (interação)
+## 7. Hover (interação)
 
 Crie um botão que:
 - Mude de cor quando o mouse passar por cima (`:hover`)
 
 ---
 
-## 🚀 Desafio Extra (Opcional)
+## Desafio Extra
 
 - Combine vários conceitos em uma única página
 - Estilize tudo para ficar visualmente agradável
