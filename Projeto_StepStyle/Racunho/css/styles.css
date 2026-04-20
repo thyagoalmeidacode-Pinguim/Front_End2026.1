@@ -1,0 +1,35 @@
+/* Todos os elementos */
+* {
+  margin: 0; /* Remove o margin padrao */
+  padding: 0; /* Remove o padding padrao */
+  border: 0; /* Remove a borda padrao */
+  box-sizing: border-box; /* Define o tamanho da caixa de acordo com o tamanho da borda */
+  font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrao */
+  background-color: #F2F2F2;
+}
+
+/* Estilos para o header */
+
+header {    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 5%;
+  align-items: center;
+  justify-items: center;
+  background-color:#F2522E ; 
+}
+
+.menu:nth-child(1) {}
+
+.logo:nth-child(2) {}
+
+.logo img {
+  width: 35vw;
+  height: auto;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+}
