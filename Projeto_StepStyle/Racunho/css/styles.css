@@ -14,54 +14,41 @@ body {
 
 /* Estilos para o header */
 
+.container {
+  display: grid;
+  grid-area: "header header" "banner banner" "destaques destaques" "sobre sobre"
+    "footer footer";
+  gap: 20px;
+}
+
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 5%;
-  align-items: center;
-  justify-items: center;
-  background-color: #f2522e;
-}
-
-.menu:nth-child(1) {
-}
-
-.logo:nth-child(2) {
-}
-
-.logo img {
-  width: 35vw;
-  height: auto;
-}
-
-/* Estilos para o main */
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 5%;
-  
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
-}
-
-main section {
-  display: flex;
-  
-  align-items: center;
+  background-color: #F2522E;  
+  grid-area: header header;
+  padding: 2%;
   justify-content: center;
-  
+  align-self: center;
 }
 
-main section .banner {
+header .menu {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
 }
 
-main section .banner img {
-  width: 80vw;
+header .menu svg {
+  width: 30px;
+  height: 30px;
+  fill: #F2F2F2;
+  cursor: pointer;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo img {
+  width: 60vw;
   height: auto;
 }
