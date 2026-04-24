@@ -1,0 +1,42 @@
+
+/* Tudo que tiver dentro do asterisco sera aplicado para todas as tag */
+
+/* Reset e padronização */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+div{
+    background-color: black;
+    color: aliceblue;
+    width: 20px; /* vw adapta automaticamente a largura */
+    /* padding: 20px;
+    border: 20px;
+    margin: 20px; */
+
+   /*  largura total? 10
+    
+                    width:  + padding-left:  + padding-right:  + border-left:  + border-right: 
+                      20           20                 20            20              20 */
+
+    height: 100vh; /* vh adapta autoamticamente a altura */
+    font-size: 30px;
+}
+
+
+
+p{
+    font-size: 3em; /* Relativo a fonte do pai */
+}
+
+.p_dois{
+    font-size: 3rem; /* Relativo a fonte padrão do html (16px) */
+}
+
+.paragrafo{
+    font-size: 14px;
+}
