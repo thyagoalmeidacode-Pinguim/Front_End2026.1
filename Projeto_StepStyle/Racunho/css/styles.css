@@ -1,54 +1,116 @@
 /* Todos os elementos */
 * {
-  margin: 0; /* Remove o margin padrao */
-  padding: 0; /* Remove o padding padrao */
-  border: 0; /* Remove a borda padrao */
-  box-sizing: border-box; /* Define o tamanho da caixa de acordo com o tamanho da borda */
-  font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrao */
+  margin: 0;
+  /* Remove o margin padrao */
+  padding: 0;
+  /* Remove o padding padrao */
+  border: 0;
+  /* Remove a borda padrao */
+  box-sizing: border-box;
+  /* Define o tamanho da caixa de acordo com o tamanho da borda */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Define a fonte padrao */
 }
 
 /* Estilos para o body */
 body {
-  background-color: #f2f2f2;
+  background-color: #D6D6D6;
 }
 
-/* Estilos para o header */
+/* Criando o GRID */
 
-.container {
+.grid {
   display: grid;
-  grid-area: "header header" "banner banner" "destaques destaques" "sobre sobre"
-    "footer footer";
-  gap: 20px;
+  grid-template-areas:
+    'header header'
+    'main main'
+    'footer footer'
+  ;
+  gap: 0;
 }
 
+
+/* Estilizando o Header */
 header {
-  background-color: #F2522E;  
-  grid-area: header header;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #eca186;
+  grid-area: header;
   padding: 2%;
-  justify-content: center;
-  align-self: center;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
+
 
 header .menu {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: block;
+  width: 30vw;
 }
 
 header .menu svg {
   width: 30px;
   height: 30px;
-  fill: #F2F2F2;
+  fill: #038C8C;
   cursor: pointer;
+
 }
 
 header .logo {
+  display: flex;
+  justify-content: start;
+  width: 70vw;
+  align-items: center;
+}
+
+header .logo img {
+  width: 35vw;
+  height: auto;
+  
+}
+
+
+/* Conteúdo da pagina */
+main {
+  grid-area: main;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header .logo img {
-  width: 60vw;
+main .container {
+  width: 90vw;
+  height: 85vh;
+}
+
+.container .banner{
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  text-align: center;
   height: auto;
+}
+
+.container .banner h2{
+  padding: 15px;
+}
+
+.container .banner button{
+  background-color: #037F8C;
+  color:#D6D6D6;
+  width: 50vw;
+  height: 5vh;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.container img{
+  background-color: #eca186;
+  width: 90vw;
+  height: auto;
+  gap: -1px;
+}
+
+
+footer{
+  grid-area: footer;
 }
