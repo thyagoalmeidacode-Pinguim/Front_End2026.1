@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+main {
+    /* Procure aplicar o flex box no elemto pai */
+    display: flex;
+
+    /* row = linha / column = coluna */
+    flex-direction: column;
+}
+
+
+main img {
+    width: 20vw;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background: #4c5cff;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.card img {
+    width: 20vw;
+    height: auto;
+}
