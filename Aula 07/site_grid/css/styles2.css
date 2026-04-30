@@ -1,0 +1,181 @@
+* {
+
+    margin: 0;
+    /* Zera a margin de todas as tags HTMl */
+
+    padding: 0;
+    /* Zera todo o espaço interno das tags HTMl */
+
+    /* border: 0; */
+
+    box-sizing: border-box;
+    /* junta a largura e a borda*/
+
+}
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    /* Família de fonte */
+
+}
+
+/* Grade (Grade) */
+
+.container {
+
+    display: grid;
+
+
+
+    grid-template-areas:
+
+        'header'
+
+        'banner'
+
+        'products'
+
+        'footer'
+
+    ;
+
+    grid-template-rows: 80px 500px 1fr 60px;
+
+
+
+
+
+    /* Primeira Forma */
+
+    /* grid-template-columns: repeat(5, 1fr); */
+
+    /* grid-template-rows: repeat(3, 200px); */
+
+
+
+    /* gap: 10px;
+
+    row-gap: 10px; /* Espaçamento entre linhas somente */
+
+    /* column-gap: 10px; /*Espaçamento somente entre colunas */
+
+}
+
+
+
+.header {
+
+    grid-area: header;
+    /* Encaixa o cabeçalho no lugar */
+
+    background-color: black;
+    /* Define a cor do fundo */
+
+    color: aliceblue;
+    /* Define a cor do texto */
+
+    display: flex;
+    /* FlexBox para trabalhar mais livremente */
+
+    justify-content: space-between;
+    /* Alinha elementos lado a lado de acordo com o espaço  */
+
+    align-items: center;
+
+    padding: 0 20px;
+    /* 0 - Espaçamento top e bottom, 20px - left e right */
+
+}
+
+
+
+/* Estilização do menu */
+
+
+
+.menu {
+
+    display: flex;
+    /* Desprende da tag pai */
+
+    gap: 20px;
+    /* Espaçamento entre os itens  */
+
+}
+
+
+
+.menu a {
+
+    text-decoration: none;
+    /* Retira o sublinhado do menu  */
+
+    color: aliceblue;
+    /* Cor da fonte */
+
+    transition: 0.3s;
+    /* Suaviza a animação feita pelo transform e o tempo */
+
+}
+
+
+
+.menu a:hover {
+
+    text-decoration: none;
+    /* Retira o sublinhado do menu */
+
+    color: orangered;
+    /* Cor de fundo */
+
+    transform: scale(1.1);
+    /* Cria animação */
+
+}
+
+/* Estilizando o banner */
+
+
+
+.banner {
+
+    grid-area: banner;
+
+    background: url("https://images.unsplash.com/photo-1600185365483-26d7a4cc7519") center/cover;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    color: orangered;
+
+
+
+    padding: 20px;
+
+    font-size: 30px;
+
+}
+
+
+
+/* Estilizando  */
+
+.products {
+
+    grid-area: products;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+
+    padding: 20px;
+
+}
