@@ -64,6 +64,7 @@ body {
     /* Permite movimentar livremente */
     gap: 20px;
     /* Espaçamento entre os itens */
+    
 }
 
 .menu a {
@@ -81,6 +82,15 @@ body {
     transform: scale(1.1);
     /* Cria animação */
 
+}
+
+/* Menu hamburguer */
+.hamburguer {
+    display: none;
+    width: 30px;
+    height: 30px;
+    fill: aliceblue;
+    cursor: pointer;
 }
 
 /* Estilizando o banner */
@@ -139,7 +149,7 @@ body {
     text-align: center;
 }
 
-.formulario form{
+.formulario form {
     gap: 20px;
 }
 
@@ -149,26 +159,25 @@ body {
     padding: 5px;
     /* Top, right, bottom, left */
     box-shadow: 0px 4px 4px #222d31;
-    background-color: #f2f2f2;    
+    background-color: #f2f2f2;
     border-radius: 4px;
     font-size: 14px;
     font-weight: bold;
 }
 
-.formulario button{    
+button {
     width: 100%;
     height: 4vh;
-    background-color: orangered;
+    background-color: rgb(233, 144, 112);
     border: none;
     box-shadow: 0px 2px 6px;
     font-weight: 600;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
 
-button:hover{
+button:hover {
     background-color: orange;
     cursor: pointer
-    
 }
 
 .formulario:nth-child(7) {
@@ -188,4 +197,14 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width: 768px){
+    .menu{
+        display: none;
+    }
+
+    .hamburguer{
+        display: block;
+    }
 }
