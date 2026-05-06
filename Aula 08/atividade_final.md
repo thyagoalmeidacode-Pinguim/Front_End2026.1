@@ -78,3 +78,5 @@ Cada grupo deverá apresentar:
 
 ## ⏱️ Prazo
 Próxima aula
+
+##Todos deverão entregar de forma individual o trabalho
