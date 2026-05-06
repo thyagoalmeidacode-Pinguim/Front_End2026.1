@@ -38,8 +38,8 @@ Com base no wireframe escolhido, o grupo deverá:
 
 ### 3. Desenvolvimento da Home Page
 Transformar o wireframe melhorado em uma página real utilizando:
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 
 A página deve conter:
 - Cabeçalho (logo + menu)
