@@ -17,14 +17,14 @@ body {
 
 /* Grade (Garde) */
 .container {
-    display: grid;
+    display: grid; /* Criando a grade */
 
     grid-template-areas:
         /* Define as areas e as colunas */
         'header'
-        'banner'
-        'products'
-        'footer'
+        'banner' 
+        'products' 
+        'footer' 
     ;
     grid-template-rows: 80px 500px 1fr 60px;
     /* Define a altura das linhas */
@@ -84,15 +84,6 @@ body {
 
 }
 
-/* Menu hamburguer */
-.hamburguer {
-    display: none;
-    width: 30px;
-    height: 30px;
-    fill: aliceblue;
-    cursor: pointer;
-}
-
 /* Estilizando o banner */
 .banner {
     grid-area: banner;
@@ -110,7 +101,7 @@ body {
 .products {
     grid-area: products;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* Divide em 4 colunas */
     gap: 15px;
     padding: 20px;
 }
